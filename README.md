@@ -4,6 +4,12 @@ Reusable circuit design elements: hierarchical schematic sheets and KiCad
 design blocks. Consumed as a git submodule by projects created from
 [wylie_kicad_project_template](https://github.com/TheWylieStCoyote/wylie_kicad_project_template).
 
+## Contents
+
+| Circuit | Design block | Sheet | Notes |
+|---|---|---|---|
+| `PowerIn_AMS1117-3.3` | ✓ | ✓ | VIN (4.75–15 V) → +3V3 @ 1 A; 10 µF in / 22 µF out (output cap required for stability). Uses `wylie:Reg_LDO_AMS1117-3.3`. Sheet variant exposes `VIN` as a hierarchical pin; +3V3/GND are global power symbols. |
+
 ## Layout
 
 ```

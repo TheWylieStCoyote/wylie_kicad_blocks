@@ -1,0 +1,6 @@
+{
+"description": "AMS1117-3.3 LDO power input stage (VIN 4.75-15V -> +3V3, 1A)",
+"keywords": "power LDO regulator 3V3 AMS1117",
+"fields": {
+}
+}
