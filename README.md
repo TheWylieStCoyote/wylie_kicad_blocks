@@ -9,6 +9,7 @@ design blocks. Consumed as a git submodule by projects created from
 | Circuit | Design block | Sheet | Notes |
 |---|---|---|---|
 | `PowerIn_AMS1117-3.3` | ✓ | ✓ | VIN (4.75–15 V) → +3V3 @ 1 A; 10 µF in / 22 µF out (output cap required for stability). Uses `wylie:Reg_LDO_AMS1117-3.3`. Sheet variant exposes `VIN` as a hierarchical pin; +3V3/GND are global power symbols. |
+| `Decoupling_100nF_x4` | ✓ | — | 4× 100 nF/0402 bank on +3V3. Standalone ERC reports "power pin not driven" by design — the rails are driven by the consuming circuit. Place each cap <2 mm from its IC pin. |
 
 ## Layout
 
